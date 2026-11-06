@@ -1,0 +1,29 @@
+# kept local, not published
+PAPER_GUIDE.md
+PLAN.md
+data_readable.csv
+
+# secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials*.json
+secrets*.json
+.aws/
+.ssh/
+
+# python and jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# editor and os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
